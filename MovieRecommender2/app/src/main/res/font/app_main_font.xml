@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font android:font="@font/dxmobr" />
+    <font android:font="@font/inkli" />
+    <font android:font="@font/malgunbd" />
+    <font android:font="@font/malgunsl" />
+    <font android:font="@font/papyrus_bold" />
+    <font android:font="@font/papyrus_l" />
+</font-family>

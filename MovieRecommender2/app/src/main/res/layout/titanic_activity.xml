@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_marginBottom="20dp" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginTop="20dp" >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="타이타닉, 1997"
+                 android:textSize="30dp"
+                 android:fontFamily="@font/malgunbd"
+                 android:textColor="#000000"
+                 android:layout_marginLeft="10dp"
+                 />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="감독 | 제임스 카메론"
+                 android:textSize="15dp"
+                 android:fontFamily="@font/malgunsl"
+                 android:layout_marginLeft="10dp"
+                 />
+
+         </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/titanic_pic1"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/titanic_pic2"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/titanic_pic3"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/titanic_pic4"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“내 인생의 가장 큰 행운은,\n 도박에서 딴 티켓으로 당신을 만난 거야…”"
+            android:textSize="30dp"
+            android:fontFamily="@font/papyrus_bold"
+            android:textColor="@color/green"
+            android:layout_marginLeft="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RatingBar
+                android:id="@+id/star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:rating="4.5"
+                android:stepSize="0.5"
+                android:max="5"
+                android:theme="@style/RatingBar"
+                />
+
+            <TextView
+                android:id="@+id/starPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="별점 | 4.5"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="@font/malgunsl"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="단 하나의 운명, 단 한 번의 사랑,\n영원으로 기억될 세기의 러브 스토리\n\n
+우연한 기회로 티켓을 구해 타이타닉호에 올라탄 자유로운 영혼을 가진 화가 잭(레오나르도 디카프리오)은
+막강한 재력의 약혼자와 함께 1등실에 승선한 로즈(케이트 윈슬렛)에게 한 눈에 반한다.
+진실한 사랑을 꿈꾸던 로즈 또한 생애 처음 황홀한 감정에 휩싸이고, 둘은 운명 같은 사랑에 빠지는데…"
+             android:fontFamily="@font/malgunsl"
+             android:layout_margin="3dp"
+             android:layout_marginTop="5dp"
+             />
+
+         <TextView
+             android:id="@+id/moreLink"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="> 더보기"
+             android:fontFamily="@font/malgunbd"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="20dp"
+             />
+
+     </LinearLayout>
+</ScrollView>

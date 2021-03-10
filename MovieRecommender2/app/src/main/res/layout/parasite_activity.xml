@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_marginBottom="20dp" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginTop="20dp" >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="기생충, 2019"
+                 android:textSize="30dp"
+                 android:fontFamily="@font/malgunbd"
+                 android:textColor="#000000"
+                 android:layout_marginLeft="10dp"
+                 />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="감독 | 봉준호"
+                 android:textSize="15dp"
+                 android:fontFamily="@font/malgunsl"
+                 android:layout_marginLeft="10dp"
+                 />
+
+         </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/parasite_pic1"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/parasite_pic2"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/parasite_pic3"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/parasite_pic4"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="“아들아, 너는 계획이 다 있구나?”"
+            android:textSize="30dp"
+            android:fontFamily="@font/papyrus_bold"
+            android:textColor="@color/green"
+            android:layout_marginLeft="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RatingBar
+                android:id="@+id/star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:rating="4.5"
+                android:stepSize="0.5"
+                android:max="5"
+                android:theme="@style/RatingBar"
+                />
+
+            <TextView
+                android:id="@+id/starPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="별점 | 4.5"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:fontFamily="@font/malgunsl"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="전원백수로 살 길 막막하지만 사이는 좋은 기택(송강호) 가족.\n
+장남 기우(최우식)에게 명문대생 친구가 연결시켜 준 고액 과외 자리는 모처럼 싹튼 고정수입의 희망이다.\n
+온 가족의 도움과 기대 속에 박사장(이선균) 집으로 향하는 기우.\n
+글로벌 IT기업 CEO인 박사장의 저택에 도착하자 젊고 아름다운 사모님 연교(조여정)가 기우를 맞이한다.\n\n
+그러나 이렇게 시작된 두 가족의 만남 뒤로, 걷잡을 수 없는 사건이 기다리고 있었으니…\n"
+             android:fontFamily="@font/malgunsl"
+             android:layout_margin="3dp"
+             android:layout_marginTop="5dp"
+             />
+
+         <TextView
+             android:id="@+id/moreLink"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="> 더보기"
+             android:fontFamily="@font/malgunbd"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="20dp"
+             />
+
+     </LinearLayout>
+</ScrollView>
